@@ -25,10 +25,7 @@ import sportsIcon from "../assets/sports.svg";
 import learningIcon from "../assets/learning.svg";
 import fashionAndBeautyIcon from "../assets/fashionAndBeauty.svg";
 
-import ytPremiumIcon from "../assets/yt-premium.svg";
-import ytStudioIcon from "../assets/yt-studio.svg";
-import ytMusicIcon from "../assets/yt-music.svg";
-import ytKidsIcon from "../assets/yt-kids.svg";
+
 
 import settingsIcon from "../assets/settings.svg";
 import reportHistoryIcon from "../assets/reportHistory.svg";
@@ -297,7 +294,7 @@ const Sidebar = () => {
           </NavLink>
         </li>
       </ul>
-      <hr className="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
+      {/* <hr className="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
       <h1 className="font-medium pt-5">More From Youtube</h1>
       <ul>
         <li className="my-1 p-1 py-2 hover:bg-gray-100 cursor-pointer rounded-lg">
@@ -344,7 +341,7 @@ const Sidebar = () => {
             Youtube Kids
           </NavLink>
         </li>
-      </ul>
+      </ul> */}
       <hr className="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
       <ul>
         <li className="my-1 p-1 py-2 hover:bg-gray-100 cursor-pointer rounded-lg">
